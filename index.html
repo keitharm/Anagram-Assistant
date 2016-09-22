@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Anagram Assistant</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Anagram Assistant</h1>
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="subtitle">Input</h4>
+          <textarea rows="5" cols="40" id="input">Tom Marvolo Riddle</textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <h4 class="subtitle">Letters available</h4>
+          <table class="letterTable">
+            <thead>
+              <tr id="lettersAvailable"></tr>
+            </thead>
+            <tbody>
+              <tr id="lettersCount"></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+        <div class="twelve columns">
+          <h4 class="subtitle">Output</h4>
+          <textarea rows="5" cols="40" id="output">I am Lord Voldemort</textarea>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

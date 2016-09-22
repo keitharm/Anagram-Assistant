@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 10px;
+  text-align: center;
+}
+
+textarea {
+  display: block;
+  margin: auto;
+}
+
+.info {
+  display: block;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.letterTable {
+  margin: auto;
+}
+
+.letterTable td, th {
+  border-bottom: initial;
+}
